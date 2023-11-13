@@ -1,0 +1,18 @@
+{
+  "ProxyFactory__implementation": {
+    "type": "plain",
+    "name": "ProxyFactory__implementation",
+    "address": "0xd718D90100290e3b2F052AB924f8639B5d27bF80",
+    "deployedAt": 143954154
+  },
+  "ProxyFactory": {
+    "type": "upgradeable",
+    "name": "ProxyFactory",
+    "address": "0x2DDfD68aF06365163c6636501bdb89722f80f11c",
+    "dependencies": {
+      "admin": "0xEd594Fee4Ab06cB8BFCB52293A74aD9db3e4C778",
+      "implementation": "0xd718D90100290e3b2F052AB924f8639B5d27bF80"
+    },
+    "deployedAt": 143954167
+  }
+}

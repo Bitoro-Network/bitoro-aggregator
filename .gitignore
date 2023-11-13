@@ -1,0 +1,11 @@
+node_modules
+/artifacts
+/cache
+/typechain
+/coverage
+coverage.json
+
+# enviroment files
+.env
+.env.local
+yarn.lock

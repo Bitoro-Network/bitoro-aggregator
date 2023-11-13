@@ -1,0 +1,48 @@
+{
+  "ProxyAdmin": {
+    "type": "plain",
+    "name": "ProxyAdmin",
+    "address": "0xE52d9a3CBA458832A65cfa9FC8a74bacAbdeB32A",
+    "deployedAt": 42082388
+  },
+  "TimelockControllerUpgradeable": {
+    "type": "upgradeable",
+    "name": "TimelockControllerUpgradeable",
+    "address": "0xc2D28778447B1B0B2Ae3aD17dC6616b546FBBeBb",
+    "deployedAt": 18300188
+  },
+  "ProxyFactory__implementation": {
+    "type": "plain",
+    "name": "ProxyFactory__implementation",
+    "address": "0xE0634794dCfD43A158918208DFc7BD1c0D619bCb",
+    "deployedAt": 102927567
+  },
+  "ProxyFactory": {
+    "type": "upgradeable",
+    "name": "ProxyFactory",
+    "address": "0x2ff2f1D9826ae2410979ae19B88c361073Ab0918",
+    "dependencies": {
+      "admin": "0xE52d9a3CBA458832A65cfa9FC8a74bacAbdeB32A",
+      "implementation": "0xe669424c3b60F8611434C03D2Bf211b91A54240D"
+    },
+    "deployedAt": 30795158
+  },
+  "Reader": {
+    "type": "plain",
+    "name": "Reader",
+    "address": "0x225aE665fD6E2C73D9A715Ad8F5b2Af05549fC9f",
+    "deployedAt": 69362323
+  },
+  "LibGmx": {
+    "type": "plain",
+    "name": "LibGmx",
+    "address": "0x9568ee9aE3F91b830A649b058983291B77cd5FC9",
+    "deployedAt": 102928018
+  },
+  "GmxAdapter": {
+    "type": "plain",
+    "name": "GmxAdapter",
+    "address": "0xe739c5eBd761Bd7398c7F769a7caf29F6AC60f6b",
+    "deployedAt": 102928028
+  }
+}
