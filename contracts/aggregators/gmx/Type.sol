@@ -17,6 +17,7 @@ enum TokenConfigIds {
     BOOST_FEE_RATE,
     INITIAL_MARGIN_RATE,
     MAINTENANCE_MARGIN_RATE,
+    PRICE_IMPACT_RATE,
     LIQUIDATION_FEE_RATE,
     REFERRENCE_ORACLE,
     REFERRENCE_ORACLE_DEVIATION,
@@ -43,6 +44,7 @@ struct TokenConfigs {
     uint32 boostFeeRate;
     uint32 initialMarginRate;
     uint32 maintenanceMarginRate;
+    uint32 priceImpactRate;
     uint32 liquidationFeeRate;
     // --------------------------
     bytes32[20] reserved;

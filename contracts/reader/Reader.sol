@@ -71,6 +71,7 @@ contract Reader {
             token.boostFeeRate = uint256(values[uint256(TokenConfigIds.BOOST_FEE_RATE)]);
             token.initialMarginRate = uint256(values[uint256(TokenConfigIds.INITIAL_MARGIN_RATE)]);
             token.maintenanceMarginRate = uint256(values[uint256(TokenConfigIds.MAINTENANCE_MARGIN_RATE)]);
+            token.priceImpactRate = uint256(values[uint256(TokenConfigIds.PRICE_IMPACT_RATE)]);
             token.liquidationFeeRate = uint256(values[uint256(TokenConfigIds.LIQUIDATION_FEE_RATE)]);
             // state
             (token.totalBorrow, token.borrowLimit, ) = IProxyFactory(aggregatorFactory).getBorrowStates(

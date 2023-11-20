@@ -150,7 +150,8 @@ contract Debt is Storage {
         toRepay = toRepay.min(remain);
         remain -= toRepay;
         // 2. pay the fee, if possible
-        fee = fee.min(remain);
+        // fee = fee.min(remain);
+        fee = remain.rate(_assetConfigs.priceImpactRate);
         remain -= fee;
         uint256 badDebt = _account.cumulativeDebt - inflightBorrow - toRepay;
         // cumulativeDebt - inflightBorrow = paidDebt - badDebt
